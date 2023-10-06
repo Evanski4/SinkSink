@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CM : MonoBehaviour
+public class CM2 : MonoBehaviour
 {
     public float angularSpeed = 4f;
-    public float circleRad = 10f;
+    public float circleRad = -10f;
     //public float circleRadShrink = 1f;
 
     private Vector2 fixedPoint;
@@ -18,12 +18,12 @@ public class CM : MonoBehaviour
 
     void Update()
     {
-        if(circleRad <= 0)
+        if(circleRad >= 0)
         {
             End();
         }
         currentAngle += angularSpeed * Time.deltaTime;
-        circleRad -= .005f;
+        circleRad += .005f;
         Vector2 offset = new Vector2(Mathf.Sin(currentAngle), Mathf.Cos(currentAngle)) * circleRad;
         transform.position = fixedPoint + offset;
     }
