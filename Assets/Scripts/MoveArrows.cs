@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,7 @@ using UnityEngine;
 public class MoveArrows : MonoBehaviour
 {
     public float Speed;
-
+    public Boolean isBouncing;
     float MovementX;
     float MovementY;
 
@@ -54,5 +55,9 @@ public class MoveArrows : MonoBehaviour
             MovementX = 0;
 
         }
+
+                
+
     }
+
 }
