@@ -8,6 +8,12 @@ public class MoveWASD : MonoBehaviour
 
     float MovementX;
     float MovementY;
+    //public float angularSpeed = 4f;
+    //public float circleRad = 10f;
+    //public float circleRadShrink = 1f;
+
+    private Vector2 fixedPoint;
+    private float currentAngle;
 
     Rigidbody2D Rb;
 
@@ -17,13 +23,16 @@ public class MoveWASD : MonoBehaviour
         Rb = GetComponent<Rigidbody2D>();
         MovementX = 0;
         MovementY = 0;
+        fixedPoint = transform.position;
+       
     }
 
     // Update is called once per frame
     void Update()
     {
         Rb.velocity = new Vector2(MovementX * Speed * Time.deltaTime, MovementY * Speed * Time.deltaTime);
-
+        
+        
         if (Input.GetKeyDown(KeyCode.W))
         {
             MovementY = 1;
@@ -55,4 +64,11 @@ public class MoveWASD : MonoBehaviour
 
         }
     }
+
+    //void End()
+    //{
+      //  angularSpeed = 0;
+        //circleRad = 0;
+
+    //}
 }
