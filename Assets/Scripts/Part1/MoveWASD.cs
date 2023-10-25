@@ -9,7 +9,7 @@ public class MoveWASD : MonoBehaviour
     Vector2 movement;
     float MovementX;
     float MovementY;
-    Boolean isBouncing = false;
+    //Boolean isBouncing = false;
 
     private Vector2 fixedPoint;
     private float currentAngle;
