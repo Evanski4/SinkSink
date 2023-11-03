@@ -28,13 +28,12 @@ public class MoveArrows : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             MovementY = 1;
-
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             MovementY = -1;
-
         }
+        
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             MovementX = -1;
