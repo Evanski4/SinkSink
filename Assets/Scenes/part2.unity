@@ -197,7 +197,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bac5914576a4e98469c5c8099cafa1f4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bb3f99cb93d068d43bec4d2289381511, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -220,8 +220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b399577d18a3dcc47aaeee97768f27a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  twoLives: {fileID: 21300000, guid: 9d17b317bf08ed84a8ad3e44fe24ba46, type: 3}
-  oneLife: {fileID: 21300000, guid: 9a16fb4c4c6882143b3305181fbf912d, type: 3}
+  twoLives: {fileID: 21300000, guid: 27853dfea70d0164f8bf10afa6f00547, type: 3}
+  oneLife: {fileID: 21300000, guid: 3498c6ece99290049bf33983e2667ecd, type: 3}
 --- !u!1 &191633193
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +296,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bac5914576a4e98469c5c8099cafa1f4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bb3f99cb93d068d43bec4d2289381511, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -319,8 +319,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cffc97ab7fd1b5a42b431cca834091ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  twoLives: {fileID: 21300000, guid: 9d17b317bf08ed84a8ad3e44fe24ba46, type: 3}
-  oneLife: {fileID: 21300000, guid: 9a16fb4c4c6882143b3305181fbf912d, type: 3}
+  twoLives: {fileID: 21300000, guid: 27853dfea70d0164f8bf10afa6f00547, type: 3}
+  oneLife: {fileID: 21300000, guid: 3498c6ece99290049bf33983e2667ecd, type: 3}
 --- !u!1 &364595795
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,8 +457,8 @@ GameObject:
   - component: {fileID: 575017159}
   - component: {fileID: 575017160}
   m_Layer: 0
-  m_Name: p2
-  m_TagString: Player
+  m_Name: Player1
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,7 +531,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ebbb99caabb8bc54fa2ad009e7c43bb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -606,7 +606,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 3, y: 3}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -629,8 +629,8 @@ GameObject:
   - component: {fileID: 829977195}
   - component: {fileID: 829977196}
   m_Layer: 0
-  m_Name: p1
-  m_TagString: Player
+  m_Name: Player2
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -703,7 +703,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 14e2ca9172869cf4f92d836d2802c925, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -778,7 +778,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 3, y: 3}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
