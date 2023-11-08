@@ -9,7 +9,7 @@ public class NextScene : MonoBehaviour
     {
         print("Trigger entered");
 
-        if (other.tag == "Player")
+        if (other.tag == "Player1" || other.tag == "Player2")
         {
             SceneManager.LoadScene(2);
         }
