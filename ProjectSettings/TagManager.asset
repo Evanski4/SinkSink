@@ -4,10 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - NewScene
-  - Player1
-  - Player2
-  - Lose
+  - Enemy
   layers:
   - Default
   - TransparentFX
