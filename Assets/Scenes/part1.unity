@@ -1430,6 +1430,7 @@ GameObject:
   - component: {fileID: 1679328295}
   - component: {fileID: 1679328296}
   - component: {fileID: 1679328297}
+  - component: {fileID: 1679328298}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player1
@@ -1543,7 +1544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd5a97fdeffed3b49a6d0f036f4fcdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 200
+  Speed: 400
 --- !u!114 &1679328294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,8 +1558,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drain: {fileID: 1945795649}
-  speed: 1.5
-  isBouncing: 0
+  speed: 0.5
+  isBouncing: 1
 --- !u!60 &1679328295
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1678,6 +1679,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07e1df95a9bad9541a2fb9e28ece845a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1679328298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679328286}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e617328cbb10434e8fb1b88e7c266d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1698514026
@@ -1855,7 +1868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51892d16ad6379f498343b035e604337, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 300
+  Speed: 400
   isBouncing: 0
 --- !u!114 &1698514035
 MonoBehaviour:
@@ -1870,8 +1883,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drain: {fileID: 1945795649}
-  speed: 1.5
-  isBouncing: 0
+  speed: 0.5
+  isBouncing: 1
 --- !u!60 &1698514036
 PolygonCollider2D:
   m_ObjectHideFlags: 0

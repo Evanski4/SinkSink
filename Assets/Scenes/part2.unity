@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 11660389}
   m_Layer: 0
   m_Name: Death (13)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 22727129}
   m_Layer: 0
   m_Name: Death (25)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 109034206}
   m_Layer: 0
   m_Name: Death (27)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 112005809}
   m_Layer: 0
   m_Name: Death (5)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -709,7 +709,7 @@ GameObject:
   - component: {fileID: 150655101}
   m_Layer: 0
   m_Name: Death (30)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1050,7 +1050,7 @@ GameObject:
   - component: {fileID: 191828011}
   m_Layer: 0
   m_Name: Death (29)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1193,7 +1193,7 @@ GameObject:
   - component: {fileID: 213186679}
   m_Layer: 0
   m_Name: Death (21)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1336,7 +1336,7 @@ GameObject:
   - component: {fileID: 276738781}
   m_Layer: 0
   m_Name: Death (24)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1479,7 +1479,7 @@ GameObject:
   - component: {fileID: 286912293}
   m_Layer: 0
   m_Name: Death (14)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1622,7 +1622,7 @@ GameObject:
   - component: {fileID: 338203151}
   m_Layer: 0
   m_Name: Death (2)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1887,7 +1887,7 @@ GameObject:
   - component: {fileID: 489321108}
   m_Layer: 0
   m_Name: Death (11)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2029,6 +2029,7 @@ GameObject:
   - component: {fileID: 575017156}
   - component: {fileID: 575017160}
   - component: {fileID: 575017161}
+  - component: {fileID: 575017162}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -2188,6 +2189,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
+--- !u!114 &575017162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575017155}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e1df95a9bad9541a2fb9e28ece845a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &742941771
 GameObject:
   m_ObjectHideFlags: 0
@@ -2202,7 +2215,7 @@ GameObject:
   - component: {fileID: 742941772}
   m_Layer: 0
   m_Name: Death (15)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2345,7 +2358,7 @@ GameObject:
   - component: {fileID: 748005066}
   m_Layer: 0
   m_Name: Death (7)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2488,7 +2501,7 @@ GameObject:
   - component: {fileID: 753643075}
   m_Layer: 0
   m_Name: Death (35)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2631,7 +2644,7 @@ GameObject:
   - component: {fileID: 757166647}
   m_Layer: 0
   m_Name: Death (37)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2774,7 +2787,7 @@ GameObject:
   - component: {fileID: 763442741}
   m_Layer: 0
   m_Name: Death (43)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2916,6 +2929,7 @@ GameObject:
   - component: {fileID: 829977196}
   - component: {fileID: 829977197}
   - component: {fileID: 829977198}
+  - component: {fileID: 829977199}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Player
@@ -3075,6 +3089,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
+--- !u!114 &829977199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829977191}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e1df95a9bad9541a2fb9e28ece845a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &893972964
 GameObject:
   m_ObjectHideFlags: 0
@@ -3089,7 +3115,7 @@ GameObject:
   - component: {fileID: 893972965}
   m_Layer: 0
   m_Name: Death (31)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3232,7 +3258,7 @@ GameObject:
   - component: {fileID: 953979893}
   m_Layer: 0
   m_Name: Death (8)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3375,7 +3401,7 @@ GameObject:
   - component: {fileID: 985961447}
   m_Layer: 0
   m_Name: Death (23)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3518,7 +3544,7 @@ GameObject:
   - component: {fileID: 1125434651}
   m_Layer: 0
   m_Name: Death (12)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3661,7 +3687,7 @@ GameObject:
   - component: {fileID: 1137983712}
   m_Layer: 0
   m_Name: Death (26)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3804,7 +3830,7 @@ GameObject:
   - component: {fileID: 1158501662}
   m_Layer: 0
   m_Name: Death (34)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3947,7 +3973,7 @@ GameObject:
   - component: {fileID: 1308129207}
   m_Layer: 0
   m_Name: Death (36)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4090,7 +4116,7 @@ GameObject:
   - component: {fileID: 1311107818}
   m_Layer: 0
   m_Name: Death (39)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4345,7 +4371,7 @@ GameObject:
   - component: {fileID: 1513251491}
   m_Layer: 0
   m_Name: Death (4)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4488,7 +4514,7 @@ GameObject:
   - component: {fileID: 1514563892}
   m_Layer: 0
   m_Name: Death (38)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4631,7 +4657,7 @@ GameObject:
   - component: {fileID: 1517753476}
   m_Layer: 0
   m_Name: Death (17)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4774,7 +4800,7 @@ GameObject:
   - component: {fileID: 1527788740}
   m_Layer: 0
   m_Name: Death (3)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4917,7 +4943,7 @@ GameObject:
   - component: {fileID: 1542975194}
   m_Layer: 0
   m_Name: Death (22)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5060,7 +5086,7 @@ GameObject:
   - component: {fileID: 1591023274}
   m_Layer: 0
   m_Name: Death (18)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5203,7 +5229,7 @@ GameObject:
   - component: {fileID: 1624438878}
   m_Layer: 0
   m_Name: Death (41)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5346,7 +5372,7 @@ GameObject:
   - component: {fileID: 1662730057}
   m_Layer: 0
   m_Name: Death (33)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5489,7 +5515,7 @@ GameObject:
   - component: {fileID: 1703804039}
   m_Layer: 0
   m_Name: Death (44)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5632,7 +5658,7 @@ GameObject:
   - component: {fileID: 1765360495}
   m_Layer: 0
   m_Name: Death (20)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5775,7 +5801,7 @@ GameObject:
   - component: {fileID: 1781612814}
   m_Layer: 0
   m_Name: Death (40)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5918,7 +5944,7 @@ GameObject:
   - component: {fileID: 1826910838}
   m_Layer: 0
   m_Name: Death (6)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6061,7 +6087,7 @@ GameObject:
   - component: {fileID: 1879615264}
   m_Layer: 0
   m_Name: Death
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6205,7 +6231,7 @@ GameObject:
   - component: {fileID: 1915696962}
   m_Layer: 0
   m_Name: Death (10)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6348,7 +6374,7 @@ GameObject:
   - component: {fileID: 1923682843}
   m_Layer: 0
   m_Name: Death (16)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6491,7 +6517,7 @@ GameObject:
   - component: {fileID: 1951048290}
   m_Layer: 0
   m_Name: Death (28)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6634,7 +6660,7 @@ GameObject:
   - component: {fileID: 1972631064}
   m_Layer: 0
   m_Name: Death (9)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6777,7 +6803,7 @@ GameObject:
   - component: {fileID: 2010932580}
   m_Layer: 0
   m_Name: Death (42)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6920,7 +6946,7 @@ GameObject:
   - component: {fileID: 2013050381}
   m_Layer: 0
   m_Name: Death (19)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7175,7 +7201,7 @@ GameObject:
   - component: {fileID: 2055092906}
   m_Layer: 0
   m_Name: Death (1)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7361,7 +7387,7 @@ GameObject:
   - component: {fileID: 2077262176}
   m_Layer: 0
   m_Name: Death (32)
-  m_TagString: Untagged
+  m_TagString: Lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -25,5 +25,6 @@ public class Hearts2 : MonoBehaviour
         {
             this.gameObject.GetComponent<SpriteRenderer>().sprite = oneLife;
         }
+        DontDestroyOnLoad(this);
     }
 }
