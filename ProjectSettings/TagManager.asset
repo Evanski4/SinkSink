@@ -10,6 +10,7 @@ TagManager:
   - Player1
   - NewScene
   - Lose2
+  - Lose3
   layers:
   - Default
   - TransparentFX

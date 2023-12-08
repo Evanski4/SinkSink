@@ -50,25 +50,35 @@ public class Lives1 : MonoBehaviour
                 hasRun = true;
             }
         }
-        /*
-        if(currentSceneName == "part2")
+        
+        if(currentSceneName == "Water")
         {
-            if (other.tag == "Lose" && this.tag == "Player1")
+            if (other.tag == "Lose3" && this.tag == "Player1")
             {
                 p1Lives -= 1;
                 print("p1 lives -1");
                 print("p1 lives: " + p1Lives);
                 
             }
-            else if (other.tag == "Lose" && this.tag == "Player2")
+            if (other.tag == "Lose3" && this.tag == "Player2")
             {
                 p2Lives -= 1;
                 print("p2 lives -1");
                 print("p2 lives: " + p2Lives);
                 
             }
+
+            if(p2Lives == 0)
+            {
+                SceneManager.LoadScene(5);
+            }
+            else if(p1Lives == 0)
+            {
+                SceneManager.LoadScene(4);
+            }
+
         }
-        */
+        
         
     }
 

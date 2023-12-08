@@ -1888,7 +1888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd5a97fdeffed3b49a6d0f036f4fcdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 500
+  Speed: 300
 --- !u!114 &1679328294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2067,7 +2067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51892d16ad6379f498343b035e604337, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 500
+  Speed: 300
   isBouncing: 0
 --- !u!114 &1698514035
 MonoBehaviour:
