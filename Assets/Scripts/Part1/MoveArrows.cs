@@ -21,29 +21,36 @@ public class MoveArrows : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        Rb.velocity = new Vector2(MovementX*Speed * Time.deltaTime, MovementY*Speed * Time.deltaTime);
+        Rb.velocity = new Vector2(MovementX * Speed * Time.fixedDeltaTime, MovementY * Speed * Time.fixedDeltaTime);
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             MovementY = 1;
+            
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             MovementY = -1;
+            
         }
         
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             MovementX = -1;
+            
 
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             MovementX = 1;
+            
 
         }
+
+        
+        
         if(Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow))
         {
             MovementY = 0;
@@ -54,8 +61,9 @@ public class MoveArrows : MonoBehaviour
             MovementX = 0;
 
         }
+        
+       
 
-                
 
     }
 

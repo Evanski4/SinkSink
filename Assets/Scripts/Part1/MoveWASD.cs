@@ -27,9 +27,9 @@ public class MoveWASD : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        Rb.velocity = new Vector2(MovementX * Speed * Time.deltaTime, MovementY * Speed * Time.deltaTime);
+        Rb.velocity = new Vector2(MovementX * Speed * Time.fixedDeltaTime, MovementY * Speed * Time.fixedDeltaTime);
 
 
         if (Input.GetKeyDown(KeyCode.W))
@@ -52,6 +52,7 @@ public class MoveWASD : MonoBehaviour
             MovementX = 1;
 
         }
+        
         if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.S))
         {
             MovementY = 0;
@@ -63,7 +64,7 @@ public class MoveWASD : MonoBehaviour
 
         }
 
-
+        
     }
  
  
