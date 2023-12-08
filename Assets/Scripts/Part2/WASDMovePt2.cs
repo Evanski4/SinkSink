@@ -12,7 +12,7 @@ public class MoveWASDPt2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       transform.position = new Vector2 (0f,0f);
+       transform.position = new Vector2 (-6.69f, 1.68f);
         //Rb = GetComponent<Rigidbody2D>();
         //MovementX = 0;
         //MovementY = 0;

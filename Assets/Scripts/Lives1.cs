@@ -5,18 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class Lives1 : MonoBehaviour
 {
-    public static int p1Lives;
-    public static int p2Lives;
+    public static int p1Lives = 3;
+    public static int p2Lives = 3;
+    private bool hasRun = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        p1Lives = 3;
-        p2Lives = 3;
         print("Both lives = 3");
+        hasRun = false;
     }
 
-    private bool hasRun = false;
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -39,7 +39,18 @@ public class Lives1 : MonoBehaviour
                 print("p2 lives: " + p2Lives);
                 hasRun = true;
             }
+            else if(other.tag == "Lose2" && this.tag == "Player1")
+            {
+                p1Lives -= 1;
+                hasRun = true;
+            }
+            else if (other.tag == "Lose2" && this.tag == "Player2")
+            {
+                p2Lives -= 1;
+                hasRun = true;
+            }
         }
+        /*
         if(currentSceneName == "part2")
         {
             if (other.tag == "Lose" && this.tag == "Player1")
@@ -57,6 +68,7 @@ public class Lives1 : MonoBehaviour
                 
             }
         }
+        */
         
     }
 
