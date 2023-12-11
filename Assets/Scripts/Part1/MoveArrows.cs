@@ -25,24 +25,24 @@ public class MoveArrows : MonoBehaviour
     {
         Rb.velocity = new Vector2(MovementX * Speed * Time.fixedDeltaTime, MovementY * Speed * Time.fixedDeltaTime);
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             MovementY = 1;
             
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             MovementY = -1;
             
         }
         
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             MovementX = -1;
             
 
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             MovementX = 1;
             

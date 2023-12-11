@@ -32,22 +32,22 @@ public class MoveWASD : MonoBehaviour
         Rb.velocity = new Vector2(MovementX * Speed * Time.fixedDeltaTime, MovementY * Speed * Time.fixedDeltaTime);
 
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
             MovementY = 1;
 
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKey(KeyCode.S))
         {
             MovementY = -1;
 
         }
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
             MovementX = -1;
 
         }
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKey(KeyCode.D))
         {
             MovementX = 1;
 
