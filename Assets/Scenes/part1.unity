@@ -1871,7 +1871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drain: {fileID: 825967356}
-  speed: 1.5
+  speed: 3
   isBouncing: 0
 --- !u!114 &1679328296
 MonoBehaviour:
@@ -2051,7 +2051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drain: {fileID: 825967356}
-  speed: 1.5
+  speed: 3
   isBouncing: 0
 --- !u!114 &1698514037
 MonoBehaviour:
