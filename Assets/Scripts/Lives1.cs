@@ -82,6 +82,4 @@ public class Lives1 : MonoBehaviour
         
     }
 
-    //Add part2 Lose condition
-
 }
